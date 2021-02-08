@@ -1,10 +1,10 @@
 {
-  "name": "launchbase",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Projetos de Ademir Diamente Júnior",
+  "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node src/server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
