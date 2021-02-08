@@ -1,0 +1,74 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+    <title>Sobre - Ademir</title>
+{% endblock %}
+
+
+{% block content %}
+
+    <header>
+        <div id="header-links">
+            <a id="about-link" class="selected" href="/">Sobre</a>
+            <a id ="projects-link" href="/projects">Projetos</a>
+        </div>
+
+    </header>
+
+    <div id="about">
+        <div id="personal-infos">
+            <img src="https://avatars0.githubusercontent.com/u/56212296?s=460&u=b1159b7f9481ebbc3a1a389fd6a763d63e8c4f0d&v=4" alt="Imagem de {{about.name}}">
+            <h1>Ademir Diamente Júnior</h1>
+            <h2>Desenvolvedor fullstack</a> </h2>
+
+            <div id="links">
+                <a href="https://github.com/adejota" target="_blank">Github</a>
+                <a href="https://twitter.com/AdemirDiamente" target="_blank">Twitter</a>
+                <a href="https://www.linkedin.com/in/ademir-diamente-jr/" target="_blank">Linkedin</a>
+                <a href="mailto:ademir.diamentejunior@gmail.com">Email</a>
+            </div>
+
+        </div>
+
+        <div id="professional-infos">
+            <div id="resume">
+                <h1>Resumo</h1>
+                <p>Sou graduado em contabilidade desde 2017, mas sempre me destaquei pelo raciocínio lógico e capacidade de solucionar problemas de forma rápida, principalmente na parte de automatização de tarefas no Excel. No final de 2019 realizei um curso introdutório de lógica de programação e percebi que levava jeito. Desde então venho estudando para conseguir uma vaga com foco em desenvolvimento.</p>
+                <p>Atualmente estou trabalhando na <a href='http://lavapp.eco.br/' target='_blank'>Lavapp</a>, estudando <a href='http://www.engsoftmoderna.dcc.ufmg.br/' target='_blank'>Engenharia de Software Moderna</a> pela UFMG e aprimorando meus conhecimentos no framework Vue.js através do curso oferecido pelo <a href='https://vuejs-brasil.com.br/' target='_blank'>Vue.js - Brasil</a>.</p>
+            </div>
+
+            <div id="experience">
+                <h1>Experiência</h1>
+                <h3>Lavapp | Mar/2020 - Atualmente</h3>
+                <p style="color: var(--color-gray);">Startup do setor de serviços automotivos.</p>
+                <p>Fui contratado inicialmente para atuar como Analista de Dados, porém novas demandas surgiram e atuo também como Desenvolvedor e UX Designer. Participo desde a concepção da empresa, realizando tarefas como:</p>
+                <ul>
+                    <li>Prototipagem de telas no Adobe XD</li>
+                    <li>Webview para controlar lavagens, estoque e realizar a vistoria dos veículos</li>
+                    <li>Controle de metas, compras, campanhas, emissão de NFs e pagamentos</li>
+                    <li>Elaboração de materiais da comunicação institucional e prestação de contas semanal para investidores</li>
+                    <li>Precificação de serviços e elaboração de demonstrativos contábeis</li>
+                </ul>
+            
+                <h3>Petroplus | Mar/2017 - Fev/2020</h3>
+                <p style="color: var(--color-gray);">Empresa do setor automotivo.</p>
+                <p>Atuei no comercial, controladoria e financeiro com foco na melhoria de processos e planejamento estratégico.</p>
+            </div>
+
+            <div id="education">
+                <h1>Formação acadêmica</h1>
+                <h3>Contabilidade - Universidade de São Paulo | Jan/2013 - Jul/2017</h3>
+
+                <h3>Intercâmbio Acadêmico - Université Paris Dauphine | Ago/2016 - Dez/2016</h3>
+            
+                <h3>Técnico em Multimídia - Liceu de Artes e Ofícios de São Paulo</h3>
+                <p>Desenvolvi habilidades de editoração, marketing, fotografia e design.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="scripts.js"></script>
+
+
+{% endblock %}
