@@ -11,6 +11,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -58,6 +59,8 @@ h1, h2 {
     display: flex;
 }
 
+
+
 #personal-infos {
     text-align: center;
     padding: 64px 32px 32px;
@@ -102,8 +105,9 @@ h1, h2 {
 #links {
     display: flex;
     justify-content: center;
-    margin-top: 16px;
     padding: 0 64px;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 #links a {
@@ -164,6 +168,49 @@ h1, h2 {
 #education {
     padding: 16px 32px;
     margin-bottom: 64px;
+}
+
+@media (max-width: 961px) {
+    #about {
+        flex-direction: column;
+    }
+
+    #personal-infos {
+        width: 100%;
+        padding: 32px 16px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #personal-infos img {
+        width: 10rem;
+        height: 10rem;
+        margin: 0 auto 32px;
+    }
+
+    #personal-infos h1 {
+        width: 100%;
+    }
+
+    #professional-infos {
+        width: 100%;
+    }
+
+    #resume {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    #experience {
+        padding: 16px 16px;
+    }
+    
+    #education {
+        padding: 16px 16px;
+        margin-bottom: 64px;
+    }
 }
 /* === CARDS === */
 
@@ -292,5 +339,32 @@ button.view-repo .icon {
 button.view-repo:hover {
     background-color: #345199;
     transition: 200ms;
+}
+
+@media (max-width: 961px) {
+    .cards {
+        width: 100%;
+    }
+
+    .card {
+        border-radius: 8px;
+    
+        display: flex;
+        flex-direction: column;
+    
+        margin-top: 32px;
+        width: 100%;
+    }
+
+    .card-image-container {
+        width: 100%;
+        padding: 0 16px;
+        background-color: var(--color-dark);
+    }
+
+    .card-content {
+        width: 100%;
+        padding: 16px 16px 32px;
+    }
 }
 
