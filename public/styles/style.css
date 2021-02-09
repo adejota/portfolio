@@ -123,7 +123,7 @@ h1, h2 {
 }
 
 #professional-infos h1 {
-    margin-bottom: 16px;
+    margin: 16px 0;
 }
 
 #professional-infos p {
@@ -185,8 +185,8 @@ h1, h2 {
     }
 
     #personal-infos img {
-        width: 10rem;
-        height: 10rem;
+        width: 16rem;
+        height: 16rem;
         margin: 0 auto 32px;
     }
 
