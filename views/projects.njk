@@ -9,8 +9,8 @@
 
     <header>
         <div id="header-links">
-            <a href="/" id="about-link">Sobre</a>
-            <a href="/projects" id ="projects-link" class="selected">Projetos</a>
+            <a href="/.netlify/functions/server/" id="about-link">Sobre</a>
+            <a href="/.netlify/functions/server/projects" id ="projects-link" class="selected">Projetos</a>
         </div>
 
     </header>
@@ -27,7 +27,7 @@
             <div class="card-image-container">
                 <div class="image-container">
                     <a href="{{item.link}}" target="_blank">
-                        <img src="assets/images/{{item.id}}.png" alt="Imagem de {{item.title}}">
+                        <img src="{{item.img}}" alt="Imagem de {{item.title}}">
                     </a>
                 </div>
             </div>
