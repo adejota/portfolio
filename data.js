@@ -32,9 +32,9 @@ module.exports = [
     {
         id: "buraco",
         title: "Placar de buraco",
-        description: "Projeto webview pessoal para praticar inicialização de aplicativo com controle de usuário e desenvolvimento orientado por testes (TDD).",
-        moduleIcon: "smartphone",
-        module: "Webview",
+        description: "Projeto pessoal para praticar inicialização de aplicativo com controle de usuário e desenvolvimento orientado por testes (TDD).",
+        moduleIcon: "devices",
+        module: "Responsivo",
         environment: "Laravel, Vue.js, MySQL",
         link: "http://php-laravel-env.eba-havppnq7.sa-east-1.elasticbeanstalk.com/login",
         repo: "https://github.com/adejota/buraco"
