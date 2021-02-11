@@ -4,14 +4,11 @@
   "description": "Projetos de Ademir Diamente Júnior",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/netlify-lambda serve src",
-    "build": "./node_modules/.bin/netlify-lambda build src"
+    "start": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "netlify-lambda": "^2.0.3",
-    "nunjucks": "^3.2.1",
-    "serverless-http": "^2.7.0"
+    "nunjucks": "^3.2.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"

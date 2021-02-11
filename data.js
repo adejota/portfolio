@@ -1,6 +1,6 @@
 module.exports = [
     {
-        img: "https://i.ibb.co/bKFjV3K/gym-manager.png",
+        id: "gym-manager",
         title: "Gym manager",
         description: "Sistema para controle de instrutores e membros de uma academia. Projeto realizado durante o launchbase da <i><a href='https://rocketseat.com.br/' target='_blank'>Rocketseat</a></i> para aprofundamento em MVC, entendimento inicial de tabelas relacionais e paginação.",
         moduleIcon: "devices",
@@ -10,7 +10,7 @@ module.exports = [
         repo: "https://github.com/adejota/gym-manager"
     },
     {
-        img: "https://i.ibb.co/t8RHFQ0/receitas-pra-casinha.png",
+        id: "receitas-pra-casinha",
         title: "Receitas pra casinha",
         description: "Site de receitas colaborativo simples. Qualquer pessoa pode acessar, compartilhar ou pesquisar uma receita. Projeto realizado com base nos projetos iniciais da <i><a href='https://rocketseat.com.br/' target='_blank'>Rocketseat</a></i> para entendimento de MVC.",
         moduleIcon: "monitor",
@@ -20,7 +20,7 @@ module.exports = [
         repo: "https://github.com/adejota/receitas-pra-casinha"
     },
     {
-        img: "https://i.ibb.co/TPZNgSm/lavapp-site.png",
+        id: "lavapp-site",
         title: "Lavapp",
         description: "Site da Lavapp. Projeto realizado profissionalmente utilizando o <i><a href='https://bootstrapmade.com/' target='_blank'>Bootstrapmade</a></i>.",
         moduleIcon: "devices",
@@ -30,11 +30,11 @@ module.exports = [
         repo: "",
     },
     {
-        img: "https://i.ibb.co/Thc0dRM/buraco.png",
+        id: "buraco",
         title: "Placar de buraco",
-        description: "Projeto pessoal para praticar inicialização de aplicativo com controle de usuário e desenvolvimento orientado por testes (TDD).",
-        moduleIcon: "devices",
-        module: "Responsivo",
+        description: "Projeto webview pessoal para praticar inicialização de aplicativo com controle de usuário e desenvolvimento orientado por testes (TDD).",
+        moduleIcon: "smartphone",
+        module: "Webview",
         environment: "Laravel, Vue.js, MySQL",
         link: "http://php-laravel-env.eba-havppnq7.sa-east-1.elasticbeanstalk.com/login",
         repo: "https://github.com/adejota/buraco"
