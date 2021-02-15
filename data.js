@@ -6,7 +6,7 @@ module.exports = [
         moduleIcon: "devices",
         module: "Responsivo",
         environment: "Node.js, Express, MySQL",
-        link: "http://gym-manager-env.eba-rsjisawn.sa-east-1.elasticbeanstalk.com/",
+        link: "#", // http://gym-manager-env.eba-rsjisawn.sa-east-1.elasticbeanstalk.com/
         repo: "https://github.com/adejota/gym-manager"
     },
     {
@@ -16,7 +16,7 @@ module.exports = [
         moduleIcon: "monitor",
         module: "Website",
         environment: "Node.js, Express, MySQL",
-        link: "http://node-express-env.eba-xn8becgb.sa-east-1.elasticbeanstalk.com",
+        link: "#", //http://node-express-env.eba-xn8becgb.sa-east-1.elasticbeanstalk.com
         repo: "https://github.com/adejota/receitas-pra-casinha"
     },
     {
@@ -36,7 +36,7 @@ module.exports = [
         moduleIcon: "devices",
         module: "Responsivo",
         environment: "Laravel, Vue.js, MySQL",
-        link: "http://php-laravel-env.eba-havppnq7.sa-east-1.elasticbeanstalk.com/login",
+        link: "#", // http://php-laravel-env.eba-havppnq7.sa-east-1.elasticbeanstalk.com/login
         repo: "https://github.com/adejota/buraco"
     },
 ]
